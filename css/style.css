@@ -720,6 +720,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 56.25em) {
+      .header__text-box {
+        top: 45%; } }
 
 .footer {
   background-color: #333;
